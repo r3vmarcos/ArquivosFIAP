@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- Shift+Ctrl+P  -->
+
+<body>
+
+    <div class="header"></div>
+    <h1 class="header_titulo">Movimentação</h1>
+
+    <div class="tabela">
+        <table>
+            <caption>Resumo Consolidado</caption>
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Operação</th>
+                    <th>Valor Creditado</th>
+                    <th>Tipo de Conta</th>
+                    <th>Data da Operação</th>
+                    <th>Saldo Atualizado</th>
+                </tr>
+            </thead>
+            <!--Fim da tabela  -->
+            <tbody>
+                <!-- Primeira linha de dados -->
+                <!-- criar varias = td.dados*6 -->
+                <td id="125"></td>
+                <td id="125"></td>
+                <td id="125"></td>
+                <!-- . = class = td.nome*6-->
+                <!-- # = id = td#nome*6 -->
+
+                <tr>
+                    <td class="dados">Marcos</td>
+                    <td class="dados">Pix</td>
+                    <td class="dados">5000.00</td>
+                    <td class="dados">Conta Corrent</td>
+                    <td class="dados">17/03/2021</td>
+                    <td class="dados">15000.00</td>
+                </tr>
+                <!-- fim da Primeira linha -->
+
+                <!-- Segunda linha -->
+                <tr>
+                    <td class="dados">Marcos</td>
+                    <td class="dados">Pix</td>
+                    <td class="dados">5000.00</td>
+                    <td class="dados">Conta Corrent</td>
+                    <td class="dados">17/03/2021</td>
+                    <td class="dados">15000.00</td>
+                </tr>
+                <!-- fim da Segunda linha -->
+            </tbody>
+            <tfoot>
+                <!-- Rodapé da Tabela -->
+                <tr>
+                    <td colspan="6">Oficina 17/03/2021 TINO</td>
+                    <!-- Colspan mescla a quantidade de colunas -->
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Formulario -->
+    </div>
+    <div class="formulario">
+        <!-- inicio do form -->
+        <!-- id / name = identificadores do form
+        <!-- id = html e css e js-->
+        <!-- name = usado pelo jsp para acessar e recuperar informaçãoes -->
+        <!-- method= forma de envio dos dados -->
+        <!-- get- padrão - dados sao enviados ao servidor pela url da pagina - limite 255 carateres -->
+        <!-- post - dados sao enviados encapsulados nos campos do form -->
+        <!-- adction = o que vai acontecer quando o usuario pressionar o botão enviar (SUBMIT) endereço - script - servidor - -->
+        <!-- ler os campos, recuperar as informações e efetuar alguns processos --> -->
+
+
+        <form action="meuscript.jsp" id="dadosForm" name="dadosForm" method="post">
+            <div>
+                <!-- Label ajuda na identificação do campo, usabilidade do form -->
+                <label for="nomeCliente">Nome do Cliente</label>
+                <input type="text" id="nomeCliente" placeholder="Digite o Nome" required autofocus maxlength="50" minlength="10">
+                <!-- required usado para campo obrigatorio -->
+                <!-- autofocus usado para iniciar o campo ao carregar a pagina -->
+                
+                <!-- linha com os 4 campos alinhados um ao lado do outro -->
+                <!-- TIPO DE OPERAÇÃO = SELECT -->
+                <div>
+                    <div>
+                        <label for="">Tipo de Operação</label>
+                        <select name="tipoOperacao" id="tipoOperacao">
+                            <option value="1">Deposito</option>
+                            <option value="2">TED</option>
+                            <option value="3">DOC</option>
+                            <option value="4">PIX</option>
+                            <!-- Usar o Vallue (1,2,3,4) para recuperar os valores com jsp -->
+                        </select>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="">Valor Creditado</label>
+                    <input type="number" id="valorCreditado" name="valorCreditado">
+                </div>
+
+                <div>
+<label for="">Tipo de Conta</label>
+
+                </div>
+
+
+                
+            </form>
+        </div>
+            
+            
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

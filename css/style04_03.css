@@ -1,0 +1,20 @@
+h1{
+color: brown;
+}
+a{
+/* STYLE PARA O TEXTO DO LINK */
+font-family: 'Times New Roman', Times, serif;
+/* FONTE USADA */
+text-decoration: none;
+/* RETIRA O SUBLINHADO DO LINK */
+color: violet;
+/* COR */
+font-weight: 900;
+/* ENGROSSAR A LINHA */
+}
+
+a:hover{
+/* STYLE PARA QUANDO PASSAR O MOUSE */
+    text-decoration: underline;
+/* APARECE NOVAMENTE A LINHA */
+}

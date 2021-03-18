@@ -1,0 +1,29 @@
+h1,h2{
+    color: rgba(0, 255, 0, 0.9);
+    /* red,green,blue, opacity 0.9 = 10%*/
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+/* }LETRAS MAIUSCULAS */
+letter-spacing: 1px;
+/* ESPAÇAMENTO ENTRE AS LETRAS */
+word-spacing: 2px;
+/* ESPAÇAMENTO ENTRE AS PALAVRAS */
+}
+
+/* EFEITO CASCATA NAO DEIXA A COR E O TAMANHO DO TEXTO SER IGUAL A <H1> */
+
+h2{
+    color: rgba(145, 0, 145, 0.9);
+    /* red,green,blue, opacity 0.9 = 10%*/
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+color: #666666;
+/* COR EM HEXADECIMAL ( # ) + 6 DIGITOS */
+word-spacing: 5px;
+}

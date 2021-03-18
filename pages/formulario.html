@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+
+<body>
+    <form action="endereço de um script" method="POST" id="dados">
+
+        <fieldset>
+            <legend>Dados de Acesso</legend>
+            <p>
+                <label for="user">Usuário:</label>
+                <input type="text" id="user" placeholder="Ex: Usuário123">
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="123456">
+            </p>
+        </fieldset>
+
+        <form action="" method="POST" id="dados" name="dados">
+            <fieldset>
+                <legend>Campos para datas</legend>
+                <p>
+                    <label for="data">Data da Viagem</label>
+                    <input type="date" id="data">
+                </p>
+                <p>
+                    <label for="hora">Hora da Viagem</label>
+                    <input type="time" id="hora">
+                </p>
+
+                <label for="data">Data e hora da Viagem</label>
+                <input type="datetime-local" id="data">
+                <p>
+                    <label for="data">Semana de entrega</label>
+                    <input type="week" id="semana">
+                </p>
+                <p>
+                    <label for="data">Mes de entrega</label>
+                    <input type="month" id="mes">
+                </p>
+            </fieldset>
+        </form>
+
+        <form action="" method="POST" id="dados" name="dados">
+            <fieldset>
+                <legend>Campos email</legend>
+                <p>
+                    <label for="Seu email">Email</label>
+                    <input type="email" id="email">
+                </p>
+                <p>
+                    <label for="busca">Buscar</label>
+                    <input type="search" id="busca">
+                </p>
+                <p>
+                    <label for="site">Seu Site</label>
+                    <input type="url" id="site">
+                </p>
+                <p>
+                    <label for="foto">Enviar Foto</label>
+                    <input type="file" id="foto">
+                </p>
+            </fieldset>
+        </form>
+
+        <form action="" method="POST" id="dados" name="dados">
+            <fieldset>
+                <legend>Numeros</legend>
+                <p>
+                    <label for="numero">Numeros e Cores</label>
+                    <input type="number" id="numero" min="10" max="200" step="5">
+                </p>
+                <p>
+                    <label for="escala">Escala de valores</label>
+                    <input type="range" id="escala" min="100" max="300" step="20">
+                </p>
+                <p>
+                    <label for="cor">Seletor de Cor</label>
+                    <input type="color" id="cor">
+                </p>
+            </fieldset>
+        </form>
+
+        <form action="" method="POST" id="dados" name="dados">
+            <fieldset>
+                <legend>Selecionando Opções</legend>
+                <p>
+                    <label for="">Selecione sua formação</label>
+
+                    <input type="radio" name="formacao" id="formacao1" checked>
+                    <label for="formacao1"> Ensino Médio</label>
+
+                    <input type="radio" name="formacao" id="formacao2">
+                    <label for="formacao2"> Ensino Superior</label>
+
+                    <input type="radio" name="formacao" id="formacao3">
+                    <label for="formacao3"> Pós Graduação</label>
+
+                    <input type="radio" name="formacao" id="formacao4">
+                    <label for="formacao4"> Mestrado</label>
+                </p>
+                <p>
+                    <label for="">Area de Interesse</label>
+                    <input type="checkbox" name="" id="interesse1">
+                    <label for="interesse1">Desenvolvimento Web</label>
+                    <input type="checkbox" name="" id="interesse2">
+                    <label for="interesse2">UX</label>
+                    <input type="checkbox" name="" id="interesse3">
+                    <label for="interesse3">Agile</label>
+                    <input type="checkbox" name="" id="interesse4">
+                    <label for="interesse4">Banco de Dados</label>
+                </p>
+                <label for="">Campus</label>
+                <select name="" id="campus">
+                    <option value="1" disabled selected>Escolha o Campus</option>
+                    <option value="2">Aclimação</option>
+                    <option value="3">Paulista</option>
+                    <option value="4">Vila Olimpia</option>
+                    <option value="5">Alphaville</option>
+                </select>
+
+                <p>
+                    <label for="">Selecione o periodo</label>
+                    <input list="periodos" id="aulas">
+                    <datalist id="periodos">
+                        <option value="Manhã"></option>
+                        <option value="Tarde"></option>
+                        <option value="Noite"></option>
+                    </datalist>
+                </p>
+            </fieldset>
+        </form>
+    </form>
+
+
+
+</body>
+
+</html>

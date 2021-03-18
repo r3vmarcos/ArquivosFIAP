@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: crimson;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: aqua;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: violet;
+}
