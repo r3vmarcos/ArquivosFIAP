@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    /* font-size: 30;
+    font-family: 'Redressed', cursive; */
+    background: linear-gradient(#00a8a8, #048383, #00a8a8);
+    height: 100vh;
+    /* background-image: radial-gradient(circle at bottom center, rgb(84, 13, 239), rgb(79, 34, 84)); */
+    
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid 2px #000;
+    padding: 50px 00px;
+    text-align: center;
+    background-color: tomato;
+}
+
+
+
+
+
+/* .div1 {
+    width: 200px;
+    height: 200px;
+    margin: 50px 50px;
+    border: solid #000;
+    padding: 5px #ff1; */
+
+
+
+/* margin: 0px 0px 50px;  */
+/* margin: 0px 0px 0px 50px;  */
+/* MARGIN define margem nos 4 lodos */
+
+
+
+}

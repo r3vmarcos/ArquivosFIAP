@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+  background-image: url(https://promo.com/tools/image-resizer/static/Pattern_image-8c050053eab884e51b8599607865d112.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+
+}
+
+h1 {
+  color: #ffffff;
+}
+div {
+  width: 800px;
+  height: auto;
+  margin: 10px auto;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-image: url(../images/imageDiv.jpg); */
+  /* opacity: 0.1; */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.13);
+  overflow: hidden;
+  color: #ffffff;
+  text-align: justify;
+  border-radius: 30px;
+}
+
+h2 {
+  color: rgb(229, 255, 0);
+  text-transform: uppercase;
+  text-align: center;
+}

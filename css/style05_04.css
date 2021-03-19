@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    /* font-size: 30;
+    font-family: 'Redressed', cursive; */
+    background: linear-gradient(#905fdf, #7c6fee, #000000);
+    height: 100vh;
+    /* background-image: radial-gradient(circle at bottom center, rgb(84, 13, 239), rgb(79, 34, 84)); */
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin: 20px;
+    border-width: 10px;
+    border-style: ridge;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: indigo;
+    box-sizing: border-box;
+    /* Usando "border" atributos serão: border: width, style e color */
+    /* border-radius: 30px; */
+}

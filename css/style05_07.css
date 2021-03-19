@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-sao-paulo-capa2019-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+div {
+    width: 400px;
+    height: 300px;
+    margin: 175px 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(28, 58, 149, 0.9);
+    border-radius: 40px;
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+    }
+p {
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+a{
+    color: rgb(28, 58, 149);
+    text-decoration: none;
+    font-weight: 900;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 30px;
+    box-sizing: border-box;}
+    

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+
+div {
+    max-width: 1024px;
+    min-width: 340px;
+    max-height: 500px;
+    min-height: 500px; 
+    border: 5px solid #dc143c;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+box-shadow: 90px 30px 100px 30px blue;
+
+  }

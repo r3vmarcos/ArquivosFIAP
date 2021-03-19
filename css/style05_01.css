@@ -1,16 +1,16 @@
-img{
-    border-width: 100px;
-    border-style: double;
-    border-color: crimson;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-size: 30px;
+font-family: font-family: 'Montserrat', sans-serif;; 
+font
 }
 
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+
+img {
+display: block;
+/* imagem ocupa apesnas a linha */
 }
 
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
+
 

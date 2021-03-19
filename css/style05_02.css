@@ -1,16 +1,18 @@
-img{
-    border-width: 100px;
-    border-style: double;
-    border-color: crimson;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    font-size: 30;
+    font-family: 'Redressed', cursive;
 }
 
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
 
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
+div {
+    width: 550px;
+    /* Largura */
+    height: 200px;
+    /* Altura */
+overflow: auto;
+/* comportamento do ajuste  */
+    background-color: sandybrown;
 
+}
